@@ -11,7 +11,7 @@ import ContactPage from './pages/ContactPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 
-import { Router } from 'express';
+// import { Router } from 'express';
 
 const router = createBrowserRouter([
   {
@@ -24,15 +24,15 @@ const router = createBrowserRouter([
         element: <AboutPage />,
       },
       {
-        path: "/portfolio",
+        path: "portfolio",
         element: <PortfolioPage />,
       },
       {
-        path: "/contact",
+        path: "contact",
         element: <ContactPage />,
       },
       {
-        path: "/resume",
+        path: "resume",
         element: <ResumePage />,
       },
     ],
