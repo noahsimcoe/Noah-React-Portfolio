@@ -10,13 +10,13 @@ export default function Nav() {
                 <Link key={1} to="/">
                     About Me
                 </Link>,
-                <Link key={1} to="/portfolio">
+                <Link key={2} to="/portfolio">
                     Portfolio
                 </Link>,
-                <Link key={1} to="/contact">
+                <Link key={3} to="/contact">
                     Contact Me
                 </Link>,
-                <Link key={1} to="/resume">
+                <Link key={4} to="/resume">
                     Resume
                 </Link>,
             ]}
