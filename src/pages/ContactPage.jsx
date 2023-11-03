@@ -1,5 +1,5 @@
+import Form from "../components/Form/index";
+
 export default function ContactPage() {
-    return (
-        <h1>Contact Page Text</h1>
-    );
+    return <Form />;
 }
