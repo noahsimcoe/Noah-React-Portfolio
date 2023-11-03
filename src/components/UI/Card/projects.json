@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Project 1",
+        "languagesUsed": ["Mongoose", "React"],
+        "imageUrl": "/",
+        "repoUrl": "/",
+        "deployedAppUrl": "/"
+    },
+    {
+        "name": "Project 2",
+        "languagesUsed": ["JS", "R"],
+        "imageUrl": "/",
+        "repoUrl": "/",
+        "deployedAppUrl": "/"
+    },
+    {
+        "name": "Project 3",
+        "languagesUsed": ["C#", "Express"],
+        "imageUrl": "/",
+        "repoUrl": "/",
+        "deployedAppUrl": "/"
+    },
+    {
+        "name": "Project 4",
+        "languagesUsed": ["CSS", "React"],
+        "imageUrl": "/",
+        "repoUrl": "/",
+        "deployedAppUrl": "/"
+    },
+    {
+        "name": "Project 5",
+        "languagesUsed": ["NoSQL", "SQL"],
+        "imageUrl": "/",
+        "repoUrl": "/",
+        "deployedAppUrl": "/"
+    },
+    {
+        "name": "Project 6",
+        "languagesUsed": ["HTML", "CSS"],
+        "imageUrl": "/",
+        "repoUrl": "/",
+        "deployedAppUrl": "/"
+    }
+]
