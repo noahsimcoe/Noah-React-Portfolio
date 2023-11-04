@@ -172,7 +172,8 @@ nav {
   text-align: center;
   border-radius: 5px; /* Add rounded corners */
   max-width: 400px; /* Set a maximum width for the form, adjust as needed */
-  margin: 0 auto; /* Center the form horizontally */
+  margin-top: 150px; /* Add space above the section */
+  margin-bottom: 150px; /* Add space above the section */
 }
 
 .form-box h1 {
@@ -264,20 +265,36 @@ nav {
 
 .resume-box {
   background-color: #fff; /* Background color for the resume section */
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 5px; /* Add rounded corners */
   max-width: 600px; /* Set a maximum width for the section, adjust as needed */
   margin: 0 auto; /* Center the section horizontally */
-  margin-top: 20px; /* Add space above the section */
+  margin-top: 150px; /* Add space above the section */
+  margin-bottom: 150px; /* Add space above the section */
 }
 
+/* Style the section title */
 .resume-box h2 {
   font-size: 24px; /* Adjust the font size for the section title */
   color: #333; /* Text color for the title */
 }
 
+/* Style the list items */
+.resume-box ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0;
+  text-align: left; /* Align the list items to the left */
+}
+
+.resume-box li {
+  font-size: 16px; /* Adjust the font size for list items */
+  color: #555; /* Text color for list items */
+  margin: 10px 0; /* Add space between list items */
+}
+
+/* Style the download link */
 .resume-box a {
   display: block;
   background-color: #0077b5; /* Background color for the download link */
@@ -293,9 +310,36 @@ nav {
 .resume-box a:hover {
   background-color: #005e91; /* Change link color on hover */
 }
-This CSS segment provides styling for the "Download my resume" section, including background colors, padding, box shadows, text alignment, and other visual elements. It also includes a link styling that matches your existing styles. Adjust the values as needed to match your design preferences. Make sure to include this CSS in your project's stylesheet to apply the styling to the "Download my resume" section.
 
+.proficiency-box {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  border-radius: 5px;
+  width: calc(50% - 20px); /* Set a width to create two columns with a small gap in between */
+  margin: 30px;
+  display: inline-block; /* Display proficiency boxes side by side */
+}
 
+/* Style the section titles */
+.proficiency-box h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Style the list items within the proficiency boxes */
+.proficiency-box ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.proficiency-box li {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
 
 
 
