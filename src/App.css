@@ -118,7 +118,7 @@ nav {
   padding: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  margin: 20px; /* Add margin to create space between content */
+  margin: 150px; /* Add margin to create space between content */
   border-radius: 5px; /* Add rounded corners */
 }
 
@@ -155,11 +155,12 @@ nav {
 #project-box p {
   font-size: 16px; /* Adjust the font size for project descriptions */
   color: #555; /* Text color for project descriptions */
+  margin: 2px;
 }
 
 #project-box img {
   max-width: 100%; /* Ensure the image scales within the card */
-  height: auto; /* Maintain the aspect ratio of the image */
+  height: 200px; /* Maintain the aspect ratio of the image */
   margin-top: 10px; /* Add space below the image */
   margin-bottom: 10px;
 }

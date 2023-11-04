@@ -18,7 +18,7 @@ function ProjectList() {
         {projects.map((project, index) => (
           <li key={index}>
             <h3>{project.name}</h3>
-            <p>Languages used: {project.languagesUsed.join(', ')}</p>
+            <p>Technologies used: {project.languagesUsed.join(', ')}</p>
             <img src={project.imageUrl} alt={project.name} />
             <div className="links-container">
               <p><a href={project.repoUrl}>Repo</a></p>

@@ -2,42 +2,42 @@
     {
         "name": "Employee Tracker Database",
         "languagesUsed": ["SQL"],
-        "imageUrl": "/",
+        "imageUrl": "../public/database.jpg",
         "repoUrl": "https://github.com/noahsimcoe/Noah-Employee-Tracker",
         "deployedAppUrl": "https://drive.google.com/file/d/1Coxwqi22w0q9HBdqW5UDLJlALavB-voe/view"
     },
     {
         "name": "ECommerce Back-End",
         "languagesUsed": ["MySQL", "Express.js"],
-        "imageUrl": "/",
+        "imageUrl": "../public/backend.jpg",
         "repoUrl": "https://github.com/noahsimcoe/Noah-ECommerce-BackEnd",
         "deployedAppUrl": "https://drive.google.com/file/d/1-ninKEnQazyozfqHMbK7JWDIsyhCxua8/view"
     },
     {
         "name": "SVG Logo Maker",
         "languagesUsed": ["Node.js", "Jest"],
-        "imageUrl": "/",
+        "imageUrl": "../public/svg1.jpg",
         "repoUrl": "https://github.com/noahsimcoe/Noah-SVG-Logo-Maker",
         "deployedAppUrl": "https://drive.google.com/file/d/1XzkXOoJFWGUiDo2HsgjLWYzBn2eV4gyj/view"
     },
     {
         "name": "Password Generator",
         "languagesUsed": ["JavaScript"],
-        "imageUrl": "/",
+        "imageUrl": "../public/password.jpg",
         "repoUrl": "https://github.com/noahsimcoe/Noah-Password-Generator",
         "deployedAppUrl": "https://noahsimcoe.github.io/Noah-Password-Generator/"
     },
     {
         "name": "Coding Quiz",
         "languagesUsed": ["HTML", "CSS"],
-        "imageUrl": "/",
+        "imageUrl": "../public/matrix.jpg",
         "repoUrl": "https://github.com/noahsimcoe/Noah-Coding-Quiz",
         "deployedAppUrl": "https://noahsimcoe.github.io/Noah-Coding-Quiz/"
     },
     {
         "name": "README.md Generator",
         "languagesUsed": ["Node.js"],
-        "imageUrl": "/",
+        "imageUrl": "../public/readme.jpg",
         "repoUrl": "https://github.com/noahsimcoe/Noah-README-Generator",
         "deployedAppUrl": "https://drive.google.com/file/d/1dscvDkzllukZ80sW3IXJc6VDAqry1iSN/view"
     }
