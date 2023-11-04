@@ -1,0 +1,4 @@
+[[headers]]
+for = "/json/projects.json"
+  [headers.values]
+  Content-Type = "application/json"
