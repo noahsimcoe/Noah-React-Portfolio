@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
     return (
         <>
-            <div class="footer">
+            <div className="footer">
                 <a href="https://github.com/noahsimcoe" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} /> GitHub
                 </a>

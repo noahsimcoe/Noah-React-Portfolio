@@ -12,16 +12,18 @@ function ProjectList() {
   }, []);
 
   return (
-    <div>
-      <h2>Projects</h2>
+    <div id="project-box">
+      <h2>My Projects</h2>
       <ul>
         {projects.map((project, index) => (
           <li key={index}>
             <h3>{project.name}</h3>
             <p>Languages used: {project.languagesUsed.join(', ')}</p>
             <img src={project.imageUrl} alt={project.name} />
-            <p><a href={project.repoUrl}>Application's Repo</a></p>
-            <p><a href={project.deployedAppUrl}>Deployed App</a></p>
+            <div className="links-container">
+              <p><a href={project.repoUrl}>Repo</a></p>
+              <p><a href={project.deployedAppUrl}>View</a></p>
+            </div>
           </li>
         ))}
       </ul>

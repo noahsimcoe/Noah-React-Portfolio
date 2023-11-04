@@ -47,7 +47,7 @@ function Form() {
 
     // rendering the form parts
     return (
-        <div>
+        <div className="form-box">
             <h1>Hi there. Submit a message for me!</h1>
             <form onSubmit={handleFormSubmit}>
                 <input

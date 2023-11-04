@@ -1,44 +1,44 @@
 [
     {
-        "name": "Project 1",
-        "languagesUsed": ["Mongoose", "React"],
+        "name": "Employee Tracker Database",
+        "languagesUsed": ["SQL"],
         "imageUrl": "/",
-        "repoUrl": "/",
-        "deployedAppUrl": "/"
+        "repoUrl": "https://github.com/noahsimcoe/Noah-Employee-Tracker",
+        "deployedAppUrl": "https://drive.google.com/file/d/1Coxwqi22w0q9HBdqW5UDLJlALavB-voe/view"
     },
     {
-        "name": "Project 2",
-        "languagesUsed": ["JS", "R"],
+        "name": "ECommerce Back-End",
+        "languagesUsed": ["MySQL", "Express.js"],
         "imageUrl": "/",
-        "repoUrl": "/",
-        "deployedAppUrl": "/"
+        "repoUrl": "https://github.com/noahsimcoe/Noah-ECommerce-BackEnd",
+        "deployedAppUrl": "https://drive.google.com/file/d/1-ninKEnQazyozfqHMbK7JWDIsyhCxua8/view"
     },
     {
-        "name": "Project 3",
-        "languagesUsed": ["C#", "Express"],
+        "name": "SVG Logo Maker",
+        "languagesUsed": ["Node.js", "Jest"],
         "imageUrl": "/",
-        "repoUrl": "/",
-        "deployedAppUrl": "/"
+        "repoUrl": "https://github.com/noahsimcoe/Noah-SVG-Logo-Maker",
+        "deployedAppUrl": "https://drive.google.com/file/d/1XzkXOoJFWGUiDo2HsgjLWYzBn2eV4gyj/view"
     },
     {
-        "name": "Project 4",
-        "languagesUsed": ["CSS", "React"],
+        "name": "Password Generator",
+        "languagesUsed": ["JavaScript"],
         "imageUrl": "/",
-        "repoUrl": "/",
-        "deployedAppUrl": "/"
+        "repoUrl": "https://github.com/noahsimcoe/Noah-Password-Generator",
+        "deployedAppUrl": "https://noahsimcoe.github.io/Noah-Password-Generator/"
     },
     {
-        "name": "Project 5",
-        "languagesUsed": ["NoSQL", "SQL"],
-        "imageUrl": "/",
-        "repoUrl": "/",
-        "deployedAppUrl": "/"
-    },
-    {
-        "name": "Project 6",
+        "name": "Coding Quiz",
         "languagesUsed": ["HTML", "CSS"],
         "imageUrl": "/",
-        "repoUrl": "/",
-        "deployedAppUrl": "/"
+        "repoUrl": "https://github.com/noahsimcoe/Noah-Coding-Quiz",
+        "deployedAppUrl": "https://noahsimcoe.github.io/Noah-Coding-Quiz/"
+    },
+    {
+        "name": "README.md Generator",
+        "languagesUsed": ["Node.js"],
+        "imageUrl": "/",
+        "repoUrl": "https://github.com/noahsimcoe/Noah-README-Generator",
+        "deployedAppUrl": "https://drive.google.com/file/d/1dscvDkzllukZ80sW3IXJc6VDAqry1iSN/view"
     }
 ]
