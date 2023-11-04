@@ -5,7 +5,7 @@ export default function Resume() {
         <>
         <div>
             <p>Download my resume:</p>
-            <a href={resumeUrl} target="_blank" download>
+            <a href={resumeUrl} target="_blank" rel="noopener noreferrer" download>
                 Noah Simcoe - Resume
             </a>
         </div>
