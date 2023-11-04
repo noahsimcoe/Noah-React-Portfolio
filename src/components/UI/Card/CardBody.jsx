@@ -5,7 +5,7 @@ function ProjectList() {
 
   useEffect(() => {
     // Fetch the data from the JSON file
-    fetch('/json/projects.json')
+    fetch('/projects.json')
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error fetching data:', error));
