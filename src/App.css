@@ -6,9 +6,104 @@
 }
 
 .active {
-  color: #FF0000; /* Change the font color to red for current page */
+  color: #0077b5; /* Change the font color to red for current page */
 }
 
 a:hover {
   color: #000; /* Keep the font color black on hover */
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0077b5; /* Change color on hover (LinkedIn) */
+}
+
+nav {
+  background-color: #333; /* Background color for the header */
+  padding: 20px; /* Add padding to create some spacing around the content */
+  text-align: center; /* Center the content horizontally */
+
+  /* Optionally, add a box shadow for a subtle depth effect */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation links in the header */
+nav a {
+  color: #fff; /* Text color for the links */
+  text-decoration: none; /* Remove underlines from the links */
+
+  /* Add padding and margin to style the links */
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+nav a:hover {
+  /* Change link color on hover */
+  color: #0077b5;
+}
+
+/* Center the logo or header title */
+nav h3 {
+  margin: 0;
+  font-size: 24px; /* Adjust the font size for your title */
+  color: #fff; /* Text color for the title */
+}
+
+/* Style the navigation menu, if applicable */
+nav ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0;
+  display: flex; /* Display navigation links in a row */
+
+  /* Optionally, align navigation links horizontally and add spacing */
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Style list items within the navigation menu */
+nav li {
+  margin: 0 10px; /* Add spacing between menu items */
+}
+
+/* Active link styles */
+nav a.active {
+  font-weight: bold; /* Style the active link differently */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the header is on top of other content */
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure the footer is on top of other content */
 }
