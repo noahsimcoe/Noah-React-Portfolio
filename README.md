@@ -9,9 +9,6 @@ Currently, two official plugins are available:
 
 
 # Acceptance Criteria
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 

@@ -1,5 +1,5 @@
+import Resume from "../components/UI/Resume";
+
 export default function ResumePage() {
-    return (
-        <h1>Resume Page Text</h1>
-    );
-}
+    return <Resume />
+};
