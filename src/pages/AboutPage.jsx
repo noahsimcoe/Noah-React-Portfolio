@@ -6,9 +6,7 @@ export default function AboutPage() {
         <div className='aboutme-box'>
             <h2>About Me</h2>
             <img src={profilePic} alt="profile of Noah" height='300'></img>
-            <p>Lorem ipsum dolor sit amet, utroque constituam no mei, mei civibus delicata in, ridens inermis cu ius. Te vel consul aperiam, quodsi omnium quaestio eos id. Nostro nominavi ut vix, ea affert legimus mei. Oportere voluptatum scripserit mel eu, no feugiat lobortis perpetua mel, id ubique minimum nec. Omnes detracto ius ad, an odio alii nemore his, eu nulla graeci labores ius.
-
-Suas euripidis cu has. Augue dolore ponderum mea at. Dicat utamur rationibus duo in, modo rationibus signiferumque et est, vel dicit quaeque efficiantur te. Duo id nobis civibus suscipit.</p>
+            <p>Hi I’m Noah, and welcome to my portfolio application! I created this to house the projects I’ve created so far during my coding bootcamp. The bootcamp is through the University of Kansas and it’s focused on full stack web development. Feel free to check out some of my projects and follow me along this journey!</p>
         </div>
         </>
     );

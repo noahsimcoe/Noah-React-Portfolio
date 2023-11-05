@@ -37,6 +37,10 @@ function Form() {
             // exits out of code statement so user can retry
             return;
         }
+        if (!message) {
+            setErrorMessage("The message field cannot be left blank");
+            return;
+        }
         alert(`Thanks for your message ${contactName}`);
 
         // assuming the message was submitted, you will reset your states
