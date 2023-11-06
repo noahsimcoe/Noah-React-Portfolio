@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import projectList from "../../../utils/projects.json";
 
 function ProjectList() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    // Fetch the data from the JSON file
-    fetch('/json/projects.json')
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error('Error fetching data:', error));
-  }, []);
+  const [projects, setProjects] = useState(projectList);
 
   return (
     <div id="project-box">
